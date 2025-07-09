@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --primary-color: oklch(62.7% 0.194 149.214);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+nav > div {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav #title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+nav > div a {
+  font-size: 14px;
+  padding: 8px 12px;
+  font-weight: 500;
+}
+
+nav > div a:hover {
+  background-color: oklch(62.7% 0.194 149.214 / 0.1);
+  color: var(--primary-color);
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+footer {
+  background-color: oklch(28.2% 0.091 267.935);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 16px 16px;
+  text-align: center;
+  font-size: 14px;
+}

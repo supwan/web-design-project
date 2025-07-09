@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+header .image {
+  max-width: 1000px;
+  height: 400px;
+  background-size: cover;
+  width: 100%;
+  border-radius: 16px;
+  background-image: url("https://www.ifpri.org/wp-content/uploads/2025/05/shutterstock_editorial_2161219925-scaled.jpg");
+}
+
+header {
+  padding: 80px 16px;
+  text-align: center;
+  background-color: oklch(62.7% 0.194 149.214 / 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 24px;
+}
+
+header h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+header p {
+  font-size: 24px;
+  color: var(--primary-color);
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+header div.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+header a#learnMore {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 34px;
+  border-radius: 6px;
+}
+
+header a#take-action {
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 12px 34px;
+  border-radius: 6px;
+}
+
+.statisticsCards {
+  display: flex;
+  gap: 24px;
+}
+
+.statistics h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 64px 16px;
+  gap: 48px;
+}
+
+.card {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  border-width: 1px;
+  border-style: solid;
+  padding: 24px;
+  gap: 22px;
+  border-radius: 8px;
+}
+
+.card span {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.whatIsContainer {
+  padding: 64px 16px;
+  background-color: oklch(62.7% 0.194 149.214 / 0.1);
+}
+
+.whatIs {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.whatIs img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  border-radius: 16px;
+}
+
+.whatIs div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 22px;
+}
+
+.whatIs h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.whatIs p {
+  font-size: 18px;
+}
+
+.whatIs strong {
+  color: var(--primary-color);
+}
+
+.whatIs ul {
+  margin-left: 18px;
+  display: grid;
+  gap: 8px;
+}
+
+.whatIs a {
+  font-weight: 500;
+  font-size: 14px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 6px;
+}
+
+.getInvolved {
+  background-color: var(--primary-color);
+  padding: 64px 16px;
+}
+
+.getInvolved > div {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.getInvolved h1 {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+}
+
+.getInvolved p {
+  font-size: 20px;
+  color: white;
+}
+
+.getInvolved a:nth-child(1) {
+  background-color: white;
+  color: black;
+}
+
+.getInvolved a:nth-child(2) {
+  border: 1px solid white;
+  color: white;
+}
+
+.getInvolved > div > div {
+  display: flex;
+  gap: 16px;
+}
+
+.getInvolved a {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
