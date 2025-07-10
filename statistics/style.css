@@ -1,0 +1,76 @@
+:root {
+  --primary-color: oklch(63.7% 0.237 25.331);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 64px 16px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 64px 16px;
+}
+
+main div {
+  padding: 24px;
+  border: 1px solid black;
+  display: grid;
+  border-radius: 8px;
+}
+
+main h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+main span {
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+main p {
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.tableSection {
+  display: grid;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 32px;
+  border-radius: 8px;
+}
+
+table th {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px 16px;
+  font-weight: 700;
+  text-align: left;
+}
+
+table td {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  font-weight: 700;
+}
