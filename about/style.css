@@ -21,9 +21,10 @@ header p {
   max-width: 1000px;
   margin: 0 auto;
   padding: 64px 16px 0;
+  gap: 32px;
 }
 
-.goal h2 {
+.goal h3 {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 16px;

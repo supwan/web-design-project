@@ -1,0 +1,18 @@
+:root {
+  --primary-color: oklch(54.1% 0.281 293.009);
+}
+header {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 64px 16px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 20px;
+}
