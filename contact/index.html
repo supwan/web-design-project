@@ -32,6 +32,63 @@
       </p>
     </header>
 
+    <main>
+      <h3
+        style="font-weight: 600; letter-spacing: 0.01em; font-size: 2rem; color: #1f2937; margin: 0;"
+      >
+        Send us a Message
+      </h3>
+      <p style="font-size: 0.95rem; color: #6b7280; margin: 0;">
+        We'd love to hear from you. Fill out the form below and we'll get back
+        to you as soon as possible.
+      </p>
+      <form>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div>
+            <label for="firstName">First Name *</label
+            ><input
+              id="firstName"
+              placeholder="Enter your first name"
+              required
+            />
+          </div>
+          <div>
+            <label for="lastName">Last Name *</label
+            ><input id="lastName" placeholder="Enter your last name" required />
+          </div>
+        </div>
+        <label for="email">Email Address *</label
+        ><input
+          id="email"
+          placeholder="Enter your email address"
+          required
+          type="email"
+        />
+
+        <label for="organization">Organization (Optional)</label
+        ><input id="organization" placeholder="Your organization or company" />
+        <label for="subject">Subject *</label>
+        <select id="subject" required>
+          <option value="">Select a subject</option>
+          <option value="general">General Inquiry</option>
+          <option value="volunteer">Volunteer Opportunities</option>
+          <option value="partnership">Partnership Proposal</option>
+          <option value="media">Media Inquiry</option>
+          <option value="education">Educational Resources</option>
+          <option value="donation">Donation Information</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="message">Message *</label
+        ><textarea
+          id="message"
+          placeholder="Please provide details about your inquiry..."
+          rows="8"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+
     <footer>
       <span> @ 2025 Zero Hunger Initiative. All rights reserved. </span>
     </footer>

@@ -16,3 +16,112 @@ header h1 {
 header p {
   font-size: 20px;
 }
+
+main {
+  width: 72rem;
+  display: grid;
+  gap: 4rem;
+  margin: 4rem auto;
+}
+
+.first > div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.first .card {
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  color: #1a202c;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+}
+
+.first .card h3 {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  font-size: 1.125rem;
+}
+
+.first .card p {
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+.second > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.second .card {
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  color: #1a202c;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04);
+  padding: 1.5rem;
+}
+
+.second .card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.second .card span {
+  color: var(--primary-color);
+  background-color: rgba(127, 34, 254, 0.1);
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.second .card p {
+  color: #374151;
+  margin-bottom: 0.75rem;
+}
+
+.second .card > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.third {
+  background: #f9fafb;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.third h3 {
+  font-weight: 600;
+  color: #2d3748;
+  padding-bottom: 0.5rem;
+}
+
+.third a {
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+}
+
+.third > div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.third ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
