@@ -62,8 +62,7 @@ header p {
 
   align-items: center;
   justify-items: center;
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid var(--border-color);
   padding: 24px;
   gap: 22px;
   border-radius: 8px;

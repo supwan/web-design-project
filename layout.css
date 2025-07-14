@@ -7,7 +7,9 @@
 
 :root {
   --primary-color: oklch(62.7% 0.194 149.214);
+  --main-color: oklch(62.7% 0.194 149.214);
   --muted-color: rgba(0, 0, 0, 0.5);
+  --border-color: rgba(0, 0, 0, 0.1);
 }
 
 a {
@@ -33,17 +35,19 @@ nav > div {
 nav #title {
   font-size: 1.2rem;
   font-weight: 600;
+  color: black;
 }
 
 nav > div a {
   font-size: 14px;
   padding: 8px 12px;
   font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 nav > div a:hover {
   background-color: oklch(62.7% 0.194 149.214 / 0.1);
-  color: var(--primary-color);
+  color: var(--main-color);
   border-radius: 6px;
   transition: background 0.2s;
 }

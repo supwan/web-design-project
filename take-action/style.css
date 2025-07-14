@@ -29,7 +29,7 @@ main > div {
 
 .card {
   border-radius: 0.5rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
 }
 
 .card li {
@@ -73,7 +73,7 @@ main h2 {
   max-width: 1200px;
   margin: 0 auto;
   border-radius: 0.5rem;
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--border-color);
   background: #fff;
   color: #1f2937;
   margin-bottom: 4rem;

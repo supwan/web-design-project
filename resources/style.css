@@ -32,7 +32,7 @@ main {
 
 .first .card {
   border-radius: 0.5rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
   background: #fff;
   color: #1a202c;
   display: flex;
@@ -60,10 +60,9 @@ main {
 
 .second .card {
   border-radius: 0.5rem;
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--border-color);
   background: #fff;
   color: #1a202c;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04);
   padding: 1.5rem;
 }
 
