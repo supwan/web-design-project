@@ -73,8 +73,3 @@ form > div {
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
-
-p {
-  font-size: 1rem;
-  color: #6b7280;
-}
