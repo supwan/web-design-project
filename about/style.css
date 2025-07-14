@@ -17,10 +17,6 @@ header p {
 .goal {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-bottom: 64px;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 64px 16px 0;
   gap: 32px;
 }
 
@@ -40,9 +36,6 @@ header p {
 }
 
 .targets {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 64px 16px 0;
   text-align: center;
 }
 
@@ -79,12 +72,9 @@ header p {
 }
 
 .why {
-  max-width: 1000px;
   background-color: rgba(0, 0, 0, 0.05);
   padding: 32px;
-  margin: 0 auto;
   border-radius: 8px;
-  margin: 64px auto;
 }
 
 .why > div {
